@@ -33,7 +33,7 @@ class BuyerProfile extends React.Component<IProps, object> {
         <div>
           {this._renderImages(listing.images)}
           {this._renderAddress(listing.address)}
-          <p><span><b>Description:</b></span>{listing.description}</p>
+          <p><span><b>Description:</b></span> {listing.description}</p>
           <h6>source: {listing.link}</h6>
         </div>
       </div>
